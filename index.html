@@ -13,6 +13,8 @@
 
     <link rel="stylesheet" href="css/main.css">
 
+    <link rel="stylesheet" href="css/animate.css">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
 
@@ -22,13 +24,10 @@
   <body>
     <nav class="navbar navbar-expand-md ">
         <div class="container">
-            <a class="navbar-brand" href="#">
-                <img style="max-width:200px; margin-top: -7px;"
-             src="img/logo.png">
-            </a>
+            Ahïa Solutions
             <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
                 aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavId">
                 <ul class="nav">
@@ -60,24 +59,24 @@
     </nav>
 
     <!-- Home -->
-    <section class="home container">
+    <section class="home animated zoomIn container mb-5">
         <div class="row mt-5">
-            <div class="col lg-6 mt-5 py-5 pl-5">
-                <iframe width="86.25%" height="73.75%" src="https://www.youtube.com/embed/ChmlZ1-uoXY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="animated zoomIn delay-1s col lg-6 mt-5 py-5 pl-5">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ChmlZ1-uoXY"></iframe>
+                  </div>
             </div>
+            
             <div class="col-lg-6 my-5">
                 <div class="row">
-                    <div class="home-content offeset-lg-1 col-lg-10">
-                        <h1 class="pb-3">Marketplace Solutions for Under-represented Businesses</h1>
-                        <p class="pb-3">
+                    <div class="home-content offeset-lg-1 col-lg-10 overflow-hidden">
+                        <h1 class="animated slideInLeft delay-1s pb-3">Marketplace Solutions</h1>
+                        <p class="animated slideInLeft delay-1s overflow-hidden pb-3">
                             This is the Modern Era. Social media and video marketing has all but taken over the digital landscape. 
-                            Ahïa Solutions focuses on three things: Marketing, Process, and Implementation. We seek to form partnerships 
-                            with small-businesses and franchises to provide affordable and cost-effective marketing for small businesses, 
-                            acting as a one-stop-shop for brand building, utilizing: video production, graphic design, social 
-                            media marketing, and website building, and analytics. <br><br>
-                             </p>
-                            <button class="btn btn-lg btn-outline-secondary">Learn more</button>
-                            <button class="btn btn-lg btn-secondary">Contact Us</button>
+                            Ahïa Solutions focuses on three things: Web Design, Data Analytics, and Task Automation. <br>
+                        </p>
+                        <button class="animated fadeIn delay-3s btn btn-lg btn-outline-secondary">Learn more</button>
+                        <button class="animated fadeIn delay-3s btn btn-lg btn-secondary">Contact Us</button>
                     </div>
                 </div>
             </div>
@@ -88,12 +87,13 @@
 
     <section class="our-mission py-5">
         <div class="text-center py-5">
-            <h2 class="py-3">Our Mission</h2>
+            <h2 class="py-3 animated slideInLeft delay-1s">Our Mission</h2>
             <div class="mx-auto heading-line"></div>
-            <p class="py-3">
-                Improve the sales and public image of underrepresended companies by capitalizing on the <em>data</em> that defines their businesses. 
+            <p class="py-3 animated slideInLeft delay-1s">
+                We seek to form partnerships with small-businesses <br> and franchises to provide affordable and cost-effective 
+                solutions for <br>small businesses, acting as a one-stop-shop for brand building, <br>analytics, and task automation.
             </p>
-            <button class="btn btn-lg btn-primary">Contact Us</button>
+            <button class=" animated fadeIn delay-3s btn btn-lg btn-primary">Contact Us</button>
         </div>
     </section>
 
@@ -101,44 +101,42 @@
 
     <section class="services">
         <div class="container text-center py-5">
-            <h2 class="py-3">Services</h2>
+            <h2 class="py-3 animated slideInLeft delay-1s">Services</h2>
             <div class="mx-auto heading-line"></div>
-            <div class="container">
+        </div>
                 <div class="row">
                     <div class="col-md-4 text-center">
                         <i class="fa fa-laptop"></i>
-                        <h4 class="py-3">Web Design</h4>
-                        <p class="pb-5">Build a custom website for you or your business to improve your online presence!</p>
+                        <h4 class="animated slideInLeft delay-1s py-3">Web Design</h4>
+                        <p class="animated slideInLeft delay-1s pb-5">Build a custom website for you or your business to improve your online presence!</p>
                     </div>
                     <div class="col-md-4 text-center">
                         <i class="fa fa-bar-chart"></i>
-                        <h4 class="py-3">Data Analytics</h4>
-                        <p class="pb-5">Analyze business performance and pin-point areas of improvement.</p>
+                        <h4 class="animated slideInLeft delay-1s py-3">Data Analytics</h4>
+                        <p class="animated slideInLeft delay-1s pb-5">Analyze business performance and pin-point areas of improvement.</p>
                     </div>
                     <div class="col-md-4 text-center">
                         <i class="fa fa-code"></i>
-                        <h4 class="py-3">Task Automation</h4>
-                        <p class="pb-5">Automate redundant tasks to improve workplace efficiency.</p>
+                        <h4 class="animated slideInLeft delay-1s py-3">Task Automation</h4>
+                        <p class="animated slideInLeft delay-1s pb-5">Automate redundant tasks to improve workplace efficiency.</p>
                     </div>
                 </div>
-            </div>
-        </div>
     </section>
 
     <!-- Contact Us -->
     <section class="contact">
-        <div class="container">
+        <div class="container py-5">
             <div class="text-center py-5">
                 <h2 class="py-3">Contact Us</h2>
                 <div class="mx-auto heading-line"></div>
             </div>
             <div class="row">
-                <div class="col-lg-6">
+                <!-- <div class="col-lg-6">
                     <div id="map-container-google-1" class="z-depth-1-half map-container">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193747.65734576355!2d-74.08508155679834!3d40.645159363485455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24416947c2109%3A0x82765c7404007886!2sBrooklyn%2C%20NY!5e0!3m2!1sen!2sus!4v1586920499946!5m2!1sen!2sus" width="500" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193747.65734576355!2d-74.08508155679834!3d40.645159363485455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24416947c2109%3A0x82765c7404007886!2sBrooklyn%2C%20NY!5e0!3m2!1sen!2sus!4v1586920499946!5m2!1sen!2sus" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                     </div>
-                </div>
-                <form class="col-lg-6">
+                </div> -->
+                <form class="col-md-8 mx-auto">
                     <div class="form-group">
                         <label for="email">Email</label>
                         <input class="form-control" id="email" type="email" aria-describedby="emailHint" placeholder="Enter Email">
@@ -152,7 +150,7 @@
                         <label for="message">Name</label>
                         <textarea class="form-control" id="message" placeholder="Enter Message" rows="5"></textarea>
                     </div>
-                    <button type="submit" class="btn btn-lg btn-outline-secondary">Submit</button>
+                    <button type="submit" class="btn btn-lg btn-primary">Submit</button>
                 </form>
             </div>
         </div>

@@ -72,3 +72,31 @@ h4,h5,h6{
     background: #011627;
     color: #ffffff;
 }
+.heading-line {
+    height: 3px;
+    width: 10%;
+    background: #FF8C00
+}
+
+/* Services */
+.services i{
+    font-size: 2rem;
+    color: #FF8C00;
+}
+
+/* Contact Us */
+.contact {
+    background: #011627;
+    color: #fff;
+}
+
+@media(max-width: 900px){
+    .navbar .nav-item{
+        display: block;
+        width: 100%;
+        padding: 10px 0px;
+    }
+    .our-mission .container{
+        width: 100% !important;
+    }
+}
