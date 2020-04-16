@@ -82,8 +82,15 @@ h4,h5,h6{
 .services i{
     font-size: 2rem;
     color: #FF8C00;
+}/* Services-b */
+.services-b i{
+    font-size: 2rem;
+    color: #FF8C00;
 }
-
+.services-b{
+    background: #011627;
+    color: #fff;
+}
 /* Contact Us */
 .contact {
     background: #011627;
